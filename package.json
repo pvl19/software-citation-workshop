@@ -1,0 +1,23 @@
+{
+  "name": "smash_website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://pvl19.github.io/software-citation-workshop/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^5.0.0",
+    "vite": "^7.2.4"
+  }
+}
