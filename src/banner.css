@@ -1,14 +1,3 @@
-.smash-desc {
-  text-align: center;
-  font-size: 1.6em;
-  margin-top: 10px;
-  font-style: italic;
-
-  b {
-    color: hotpink;
-    }
-}
-
 .banner {
   width: 100%;
   background: var(--ucsd-gold);
@@ -20,6 +9,6 @@
 }
 
 .banner h1 {
-    font-size: 6em;
+    font-size: 4em;
 }
 

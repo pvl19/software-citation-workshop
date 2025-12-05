@@ -19,8 +19,16 @@
 
 .schedule .table-wrap {
   overflow-x: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .schedule b {
     color: var(--accent);
+}
+
+.agenda {
+  width: 100%;
+  flex: 1;
 }

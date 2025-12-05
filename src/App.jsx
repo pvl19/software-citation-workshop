@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Banner from './banner'
 import Overview from './overview'
 import Schedule from './schedule'
-import Locations from './locations'
-import PastMeetings from './past-meetings'
+import Location from './location'
+import Registration from './registration'
 import './App.css'
 
 export default function App() {
@@ -30,23 +30,23 @@ export default function App() {
                   className={tab === 'Schedule' ? 'active' : ''}
                   onClick={() => setTab('Schedule')}
                 >
-                  2025/2026 Schedule
+                  Schedule
                 </button>
               </li>
               <li>
                 <button
-                  className={tab === 'Locations' ? 'active' : ''}
-                  onClick={() => setTab('Locations')}
+                  className={tab === 'Location' ? 'active' : ''}
+                  onClick={() => setTab('Location')}
                 >
-                  Locations
+                  Location
                 </button>
               </li>
               <li>
                 <button
-                  className={tab === 'Past Meetings' ? 'active' : ''}
-                  onClick={() => setTab('Past Meetings')}
+                  className={tab === 'Registration' ? 'active' : ''}
+                  onClick={() => setTab('Registration')}
                 >
-                  Past Meetings
+                  Registration
                 </button>
               </li>
             </ul>
@@ -66,14 +66,14 @@ export default function App() {
               </Schedule>
             )}
 
-            {tab === 'Locations' && (
-              <Locations>
-              </Locations>
+            {tab === 'Location' && (
+              <Location>
+              </Location>
             )}
 
-            {tab === 'Past Meetings' && (
-              <PastMeetings>
-              </PastMeetings>
+            {tab === 'Registration' && (
+              <Registration>
+              </Registration>
             )}
           </section>
         </main>
