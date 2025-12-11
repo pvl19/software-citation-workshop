@@ -17,18 +17,27 @@
   background: rgba(2,6,23,0.02);
 }
 
-.schedule .table-wrap {
-  overflow-x: auto;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+.schedule {
+  a {
+    padding-left: 20px;
+  }
+
+  h2 {
+      margin-top: 40px;  
+    }
 }
 
 .schedule b {
-    color: var(--accent);
+    color: var(--ucsd-blue);
 }
 
 .agenda {
   width: 100%;
   flex: 1;
+  margin: 10px 20px;
+}
+
+.agenda-wrap {
+  display: flex;
+  justify-content: center;
 }

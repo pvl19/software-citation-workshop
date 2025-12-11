@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import Banner from './banner'
-import Overview from './overview'
-import Schedule from './schedule'
-import Location from './location'
-import Registration from './registration'
+import Banner from './components/banner'
+import Overview from './pages/overview'
+import Schedule from './pages/schedule'
+import Location from './pages/location'
+import Registration from './pages/registration'
+import OrganizingCommittees from './pages/ocs'
 import './App.css'
 
 export default function App() {
@@ -43,10 +44,18 @@ export default function App() {
               </li>
               <li>
                 <button
+                  className={tab === 'Organizing Committees' ? 'active' : ''}
+                  onClick={() => setTab('Organizing Committees')}
+                >
+                  Organizing Committees
+                </button>
+              </li>
+              <li>
+                <button
                   className={tab === 'Registration' ? 'active' : ''}
                   onClick={() => setTab('Registration')}
                 >
-                  Registration
+                  Application
                 </button>
               </li>
             </ul>
@@ -69,6 +78,11 @@ export default function App() {
             {tab === 'Location' && (
               <Location>
               </Location>
+            )}
+
+            {tab === 'Organizing Committees' && (
+              <OrganizingCommittees>
+              </OrganizingCommittees>
             )}
 
             {tab === 'Registration' && (

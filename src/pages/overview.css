@@ -1,0 +1,11 @@
+.overview {
+    b {
+        color: var(--ucsd-blue);
+    }
+
+    ol {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+}
