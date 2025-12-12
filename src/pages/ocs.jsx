@@ -15,7 +15,7 @@ export default function OrganizingCommittees() {
                     <li><b>Floor Broekgaarden</b> (UC San Diego)</li>
                     <li><b>Javier Duarte</b> (UC San Diego)</li>
                     <li><b>Sandra Gesing</b> (UC San Diego)</li>
-                    <li><b>Daniel Katz</b> (National Center for Supercomputing Applications; University of Illinois Urbana-Champaign)</li>
+                    <li><b>Daniel S. Katz</b> (University of Illinois Urbana-Champaign)</li>
                     <li><b>Phil Van-Lane</b> (UC San Diego/University of Toronto)</li>
                     <li><b>Tom Wagg</b> (Flatiron Institute)</li>
                     <li><b>Peter Williams</b> (Center for Astrophysics; American Astronomical Society)</li>

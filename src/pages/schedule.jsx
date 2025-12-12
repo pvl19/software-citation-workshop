@@ -12,9 +12,9 @@ export default function Schedule() {
         The first day will consist of flash talks by all attendees, which will be designed to highlight everyone's unique perspective and contributions to the committee, and to facilitate discussion. After the first day, most of the workshop will consist of discussions in small groups. The format will be similar to what is often called an "Unconference" approach, where active discussions are prioritized.
       </p>
       <div className="agenda-wrap">
-        <img src="./resources/agenda.png" alt="Workshop Agenda" className="agenda" />
+        <img src="/resources/agenda.png" alt="Workshop Agenda" className="agenda" />
       </div>
-      <a href="./resources/software-citation-agenda.pdf" download>Download Schedule PDF</a>
+      <a href="/resources/software-citation-agenda.pdf" download>Download Schedule PDF</a>
       <h2>Marketplace Discussion</h2>
       <p>
         The "Marketplace" style discussions will involve participants bringing ideas of their own to discuss with others, so start thinking about what you would like to get community input on!
