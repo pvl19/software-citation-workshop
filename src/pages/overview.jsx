@@ -21,6 +21,9 @@ export default function Overview() {
           <li>Prioritizing enhancements to the <a href="https://www.tomwagg.com/software-citation-station/" >The Software Citation Station</a> to enable convenient practice of the community guidelines.</li>
         </ol>
         Attendees will give short flash talks, but the majority of the meeting will be group discussions, so we expect active participation from everyone!
+        <br></br>
+        <br></br>
+        <i>Funding for this workshop is provided by the National Aeronautics and Space Administration (NASA).</i>
       </p>
     </div>
   )

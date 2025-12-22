@@ -18,7 +18,7 @@ export default function OrganizingCommittees() {
                     <li><b>Daniel S. Katz</b> (University of Illinois Urbana-Champaign)</li>
                     <li><b>Phil Van-Lane</b> (UC San Diego/University of Toronto)</li>
                     <li><b>Tom Wagg</b> (Flatiron Institute)</li>
-                    <li><b>Peter Williams</b> (Center for Astrophysics; American Astronomical Society)</li>
+                    <li><b>Peter Williams</b> (Center for Astrophysics)</li>
                     <li><b>Andrea Zonca</b> (San Diego Supercomputer Center)</li>
                 </ul>
             </div>
