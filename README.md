@@ -37,5 +37,9 @@ npm install --save-dev gh-pages
 
 # build and deploy
 npm run deploy
+
+# copy to physics server
+scp -r dist/* username@web.physics.ucsd.edu:/var/www/vhosts/softwarecitationworkshop.ucsd.edu
 ```
+
 
