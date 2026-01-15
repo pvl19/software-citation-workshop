@@ -8,6 +8,9 @@ export default function Overview() {
       <h1>Overview</h1>
       <p>
         The Software Citation Workshop will run from <b>Monday April 13 - Thursday April 16, 2026</b> at the University of California San Diego.
+        <br></br>
+        <br></br>
+        <div>The application deadline is <b><i><span style={{color: 'red'}}>February 2, 2026</span></i></b>.</div>
         <RegisterButton/>
         The purpose of this workshop is to bring together experts in the astronomy and astrophysics software citation community, and participants with a wide variety of related experience including software engineering and journal expertise.
         <br></br>
