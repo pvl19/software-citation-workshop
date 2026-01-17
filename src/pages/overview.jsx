@@ -7,26 +7,29 @@ export default function Overview() {
     <div className="overview">
       <h1>Overview</h1>
       <p>
-        The Software Citation Workshop will run from <b>Monday April 13 - Thursday April 16, 2026</b> at the University of California San Diego.
-        <br></br>
-        <br></br>
-        <div>The application deadline is <b><i><span style={{color: 'red'}}>February 2, 2026</span></i></b>.</div>
-        <RegisterButton/>
-        The purpose of this workshop is to bring together experts in the astronomy and astrophysics software citation community, and participants with a wide variety of related experience including software engineering and journal expertise.
-        <br></br>
-        <br></br>
-        Because this workshop is primarily dedicated to small group discussions, the number of participants will be limited, and so attendance is by application only. However, we are seeking participation from diverse perspectives and career stages to ensure that the community is properly represented, so we encourage anyone with an interest to apply! Expertise in astronomy is not required.
-        <br></br>
-        <br></br>
-        There are 2 primary goals of this workshop:
-        <ol>
-          <li>Creating improved guidelines on how to make astronomy software citable and how to cite astronomy software</li>
-          <li>Prioritizing enhancements to the <a href="https://www.tomwagg.com/software-citation-station/" >The Software Citation Station</a> to enable convenient practice of the community guidelines.</li>
-        </ol>
-        Attendees will give short flash talks, but the majority of the meeting will be group discussions, so we expect active participation from everyone!
-        <br></br>
-        <br></br>
-        <i>Funding for this workshop is provided by the National Aeronautics and Space Administration (NASA).</i>
+        We are pleased to announce the Software Citation Workshop — an interactive, cross-disciplinary event focused on advancing best practices, implementation strategies, and community engagement for software citation in astronomy research (and beyond)!
+      </p>
+      <div className="summary when">
+        <i class="fa fa-solid fa-calendar"></i>
+        <b>When: <i>Monday April 13 - Thursday April 16, 2026</i></b></div>
+      <div className="summary where">
+        <i class="fa-solid fa-map fa"></i>
+        <b>Where: <i>UCSD campus in Sunny San Diego</i></b></div>
+      <p>
+        <b><i>Some funding support is available to help cover travel and accommodation costs for this workshop (you can apply for this in the workshop application form).</i></b>
+      </p>
+      <p>
+        This workshop will bring together researchers, software developers, librarians, and scholarly communication professionals to address key challenges and opportunities in software citation — a foundational practice for reproducibility, attribution, and scholarly impact in computational research. Attendees will give short flash talks, but the majority of the meeting will be group discussions, so this is an amazing opportunity to meet others in the community with similar interests and we expect active participation from everyone!
+      </p>
+      <p>
+        We are seeking participation from diverse perspectives and career stages to ensure that the community is properly represented, so we encourage anyone with an interest to apply. <b><i>Expertise in astronomy or software citation is not required, and we specifically encourage early-career scientists and software enthusiasts to apply!</i></b>
+      </p>
+      <p>
+        <div>The application deadline is <b><span style={{color: 'red'}}>February 2, 2026</span></b>.</div>
+      </p>
+      <RegisterButton/>
+      <p className="nasa-funding">
+        <i>This workshop is organized by Floor Broekgaarden, Javier Duarte, Sandra Gesing, Daniel S. Katz, Phil Van-Lane, Tom Wagg, Peter Williams, and Andrea Zonca, with funding from the National Aeronautics and Space Administration (NASA).</i>
       </p>
     </div>
   )

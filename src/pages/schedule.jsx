@@ -14,7 +14,15 @@ export default function Schedule() {
       <div className="agenda-wrap">
         <img src="/resources/agenda.png" alt="Workshop Agenda" className="agenda" />
       </div>
-      <a href="/resources/software-citation-agenda.pdf" download>Download Schedule PDF</a>
+      <a className='download' href="/resources/software-citation-agenda.pdf">Download Schedule PDF</a>
+      <h2>Workshop Goals</h2>
+      <p>
+        There are 2 primary goals:
+        <ol>
+          <li>Creating improved guidelines on how to make astronomy software citable and how to cite astronomy software</li>
+          <li>Prioritizing enhancements to <a href="https://www.tomwagg.com/software-citation-station/">The Software Citation Station</a> to enable convenient practice of the community guidelines.</li>
+        </ol>
+      </p>
       <h2>Marketplace Discussion</h2>
       <p>
         The "Marketplace" style discussions will involve participants bringing ideas of their own to discuss with others, so start thinking about what you would like to get community input on!
@@ -23,7 +31,7 @@ export default function Schedule() {
         The first hour of Tuesday will be dedicated to brainstorming and sharing these ideas. The rest of the day will be spent discussing these items in small groups, until the last hour when each group will share their takeaways with the rest of participants.
         <br></br>
         <br></br>
-        Wednesday and Thursday will be spent actively working on these goals in small groups.
+        Wednesday and Thursday will be spent actively working on these items in small groups.
       </p>
     </div>
   )

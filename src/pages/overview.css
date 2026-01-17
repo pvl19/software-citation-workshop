@@ -1,7 +1,4 @@
 .overview {
-    b {
-        color: var(--ucsd-blue);
-    }
 
     ol {
         margin-top: 10px;
@@ -9,7 +6,39 @@
         margin-bottom: 15px;
     }
 
-    i {
+    .summary {
+        margin-left: 20px;
+        font-size: 1.1rem;
+        margin-block: 5px;
+    }
+    .when {
+        color: var(--ucsd-green);
+    }
+
+    .where {
+        color: var(--ucsd-gold);
+    }
+
+    .who {
+        color: var(--ucsd-green);
+    }
+
+    .fa-map {
+        margin-right: 12px;
+        color: var(--ucsd-gold);
+    }
+
+    .fa-user {
+        margin-right: 17px;
+        color: var(--ucsd-green);
+    }
+
+    .fa-calendar {
+        margin-right: 16px;
+        color: var(--ucsd-green)
+    }
+
+    .nasa-funding {
         color: var(--ucsd-blue);
     }
 }

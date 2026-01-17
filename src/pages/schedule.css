@@ -18,14 +18,15 @@
 }
 
 .schedule {
-  a {
-    padding-left: 20px;
-  }
 
   h2 {
-      margin-top: 40px;  
+      margin-top: 30px;  
     }
 }
+
+  .download {
+    padding-left: 20px;
+  }
 
 .schedule b {
     color: var(--ucsd-blue);
