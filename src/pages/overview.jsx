@@ -6,6 +6,7 @@ export default function Overview() {
   return (
     <div className="overview">
       <h1>Overview</h1>
+      <div><b><i><span style={{color: 'var(--ucsd-blue)'}}>The application deadline has now passed.</span></i></b> All applicants will receive a response by <b><i><span style={{color: 'red'}}>February 12, 2026</span></i></b>.</div>
       <p>
         We are pleased to announce the Software Citation Workshop — an interactive, cross-disciplinary event focused on advancing best practices, implementation strategies, and community engagement for software citation in astronomy research (and beyond)!
       </p>
@@ -24,12 +25,8 @@ export default function Overview() {
       <p>
         We are seeking participation from diverse perspectives and career stages to ensure that the community is properly represented, so we encourage anyone with an interest to apply. <b><i>Expertise in astronomy or software citation is not required, and we specifically encourage early-career scientists and software enthusiasts to apply!</i></b>
       </p>
-      <p>
-        <div>The application deadline is <b><span style={{color: 'red'}}>February 2, 2026</span></b>.</div>
-      </p>
-      <RegisterButton/>
       <p className="nasa-funding">
-        <i>This workshop is organized by Floor Broekgaarden, Javier Duarte, Sandra Gesing, Daniel S. Katz, Phil Van-Lane, Tom Wagg, Peter Williams, and Andrea Zonca, with funding from the National Aeronautics and Space Administration (NASA).</i>
+        <i>This workshop is organized by Floor Broekgaarden, Javier Duarte, Sandra Gesing, Daniel S. Katz, Shahed Shayan-Arani, Phil Van-Lane, Tom Wagg, Peter Williams, and Andrea Zonca, with funding from the National Aeronautics and Space Administration (NASA).</i>
       </p>
     </div>
   )

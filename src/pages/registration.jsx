@@ -7,12 +7,9 @@ export default function Registration() {
     <div className="registration">
       <h1>Application</h1>
       <p>
-        <div>The application deadline <s>is January 14, 2026</s> has been extended to <b><i>February 2, 2026</i></b>.</div>
-        <RegisterButton/>
-        All applicants will receive a response by February 12, 2026.
+        <div>The application deadline is now passed.</div>
         <br></br>
-        <br></br>
-        We encourage applications from researchers, practitioners, and other stakeholders interested in software citation, at any career stage!
+        All applicants will receive a response by <b><i>February 12, 2026</i></b>.
         </p>
     </div>
   )
