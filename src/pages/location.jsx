@@ -4,11 +4,19 @@ import "./location.css";
 export default function Location() {
   return (
     <div className="location">
-      <h1>Workshop Location</h1>
-      <p>The workshop will be hosted on the <b><a href="https://ucsd.edu" target="_blank" rel="noopener noreferrer">UC San Diego</a></b> campus (exact location to be determined).</p>
-      <p>UC San Diego is located north of downtown La Jolla. Many hotels are available in this area and can be found with any search engine or travel agency. The MTS trolley runs directly to campus and lodging along the route offer an efficient way of getting to campus quickly. There is also a central bus transportation hub on campus offering service for many bus lines throughout the region.</p>
+      <h1>Workshop Logistics</h1>
+      <h2>Location</h2>
+      <p>The workshop will be hosted at the <b><i><a href="https://www.google.com/maps/place/San+Diego+Supercomputer+Center/@32.8843429,-117.2422346,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06c1fd84fe93:0x1eb27ea2a3de8388!8m2!3d32.8843429!4d-117.2396597!16zL20vMDM1ODB6?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">San Diego Supercomputer Center</a></i></b>, on the UC San Diego campus. The group sessions will be held in the <b>Auditorium</b>, with breakout sessions in nearby rooms.</p>
+      <p><b><i>When you arrive, please check in at the registration desk in the auditorium.</i></b></p>
+      <p>UC San Diego is located north of downtown La Jolla. There is an MTS trolley stop on campus, which offers a convenient way to get to/from other areas of the city. There is also a central bus transportation hub on campus offering service for many bus lines throughout the region.</p>
+      <h2>Lodging/Hotels</h2>
+      <p>For everyone who registered for the workshop-provided accommodation, it will be booked for you and you will receive details via email.
+      </p>
       <h2>Travel</h2>
       <h3>Travel to San Diego</h3>
+      <p>
+        For all participants traveling from outside of San Diego, you will have received an email with instructions on booking/reimbursing your travel.
+      </p>
       <p>The San Diego International Airport (IATA-code: SAN) is served by a large number of US and international airlines. Direct flights are offered to most major US and many non-US airports. For non-direct flights, the Los Angeles International Airport (IATA-code: LAX) offers direct flights to many locations all over the world, located 193 km (120 mi) from San Diego.</p>
       <h3>Travel to Campus</h3>
       Public transportation in San Diego is provided by the San Diego Metropolitan Transportation Services (MTS) (its website offers a journey planner with timetables for all bus, trolley, and metro services in San Diego). To reach the UC San Diego from the airport, there are several options:
@@ -23,22 +31,9 @@ export default function Location() {
       <p>Parking on campus is available in various parking structures and surface lots, but a parking pass must be purchased. Details can be found on the <a href="https://transportation.ucsd.edu/visit/parking.html#la-jolla-academic-campus" target="_blank" rel="noopener noreferrer">UCSD parking website</a>.</p>
       <h3>Getting Around in San Diego</h3>
       <p>Public transportation in San Diego is provided by <a href="https://www.sdmts.com/" target="_blank" rel="noopener noreferrer">SDMTS</a>. UCSD is a short ride from La Jolla, and about 25-30 minutes from downtown San Diego. The La Jolla beach and surrounding areas are easily accessible by walking.</p>
-      <h2>Lodging/Hotels</h2>
-      <p>There are a number of hotel options in the area and surrounding areas accessible with public transport:
-        <ul>
-          <li><a href="https://www.marriott.com/en-us/hotels/sanjs-sheraton-la-jolla-hotel/overview/" target="_blank" rel="noopener noreferrer">Sheraton La Jolla</a>	(1.5 mi / 2.4 km	from campus)</li>
-          <li><a href="https://www.hyatt.com/en-US/hotel/california/hyatt-regency-la-jolla-at-aventine/jolla" target="_blank" rel="noopener noreferrer">Hyatt Regency</a>	(2.0 mi / 3.2 km	from campus)</li>
-          <li><a href="https://www.bestwestern.com/en_US/book/hotels-in-del-mar/best-western-premier-hotel-del-mar/propertyCode.05731.html" target="_blank" rel="noopener noreferrer">Best Western Premier Hotel Del Mar</a>	(2.0 mi / 3.2 km	from campus)</li>
-          <li><a href="https://www.marriott.com/en-us/hotels/lajca-residence-inn-san-diego-la-jolla/overview/" target="_blank" rel="noopener noreferrer">Residence Inn San Diego La Jolla</a>	(1.8 mi / 2.9 km	from campus)</li>
-          <li><a href="https://www.estancialajolla.com/" target="_blank" rel="noopener noreferrer">Estancia Hotel</a>	(1.6 mi / 2.6 km	from campus)</li>
-          <li><a href="https://www.hilton.com/en/hotels/sanljes-embassy-suites-san-diego-la-jolla/" target="_blank" rel="noopener noreferrer">Embassy Suites</a>	(2.0 mi / 3.2 km	from campus)</li>
-          <li><a href="https://www.hilton.com/en/hotels/santphh-hilton-la-jolla-torrey-pines/" target="_blank" rel="noopener noreferrer">Hilton La Jolla Torrey Pines</a>	(2.2 mi / 2.5 km	from campus)</li>
-          <li><a href="https://www.ljshoreshotel.com/" target="_blank" rel="noopener noreferrer">La Jolla Shores Hotel</a>	(4.2 mi / 6.8 km	from campus)</li>
-          <li><a href="https://www.marriott.com/en-us/hotels/sanlj-san-diego-marriott-la-jolla/overview/" target="_blank" rel="noopener noreferrer">San Diego Marriott La Jolla</a>	(1.8 mi / 2.9 km	from campus)</li>
-          </ul>
-      </p>
       <h2>Food</h2>
-      <p>There are many restaurants on campus, which can be seen in this map.</p>
+      <p>There will be coffee/tea and snacks provided throughout the workshop.</p>
+      <p>Meals are not provided for this workshop, however there are many restaurants on campus (see this map). There is no official workshop dinner, but participants are encouraged to join informal dinners throughout the week.</p>
                   <div className="iframe-wrapper" aria-hidden={false}>
                 <iframe
                     src="https://map.concept3d.com/?id=1005#!ce/17970?ct/17970,18012,18014?s/?sbc/?mc/32.88055863066228,-117.23666770759394?z/16.076776050389412?lvl/0"

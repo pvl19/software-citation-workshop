@@ -36,10 +36,10 @@ export default function App() {
               </li>
               <li>
                 <button
-                  className={tab === 'Location' ? 'active' : ''}
-                  onClick={() => setTab('Location')}
+                  className={tab === 'Logistics' ? 'active' : ''}
+                  onClick={() => setTab('Logistics')}
                 >
-                  Location
+                  Logistics
                 </button>
               </li>
               <li>
@@ -48,14 +48,6 @@ export default function App() {
                   onClick={() => setTab('Organizing Committees')}
                 >
                   Organizing Committees
-                </button>
-              </li>
-              <li>
-                <button
-                  className={tab === 'Registration' ? 'active' : ''}
-                  onClick={() => setTab('Registration')}
-                >
-                  Application
                 </button>
               </li>
             </ul>
@@ -75,7 +67,7 @@ export default function App() {
               </Schedule>
             )}
 
-            {tab === 'Location' && (
+            {tab === 'Logistics' && (
               <Location>
               </Location>
             )}
@@ -83,11 +75,6 @@ export default function App() {
             {tab === 'Organizing Committees' && (
               <OrganizingCommittees>
               </OrganizingCommittees>
-            )}
-
-            {tab === 'Registration' && (
-              <Registration>
-              </Registration>
             )}
           </section>
         </main>

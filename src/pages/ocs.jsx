@@ -32,6 +32,7 @@ export default function OrganizingCommittees() {
                 </ul>
             </div>
         </div>
+        <p>Any questions about the workshop should be directed to <a href="mailto:pvanlane@ucsd.edu">pvanlane@ucsd.edu</a>.</p>
     </div>
   )
 }
