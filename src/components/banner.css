@@ -18,6 +18,14 @@
   color: var(--scs-yellow);
   font-family: 'Teko', sans-serif;
   margin: 0;               /* remove left-margin */
+  margin-bottom: -15px;
+}
+
+.banner h2 {
+  font-size: 2em;
+  color: var(--ucsd-citron);
+  font-family: 'Teko', sans-serif;
+  margin: 0;               /* remove left-margin */
 }
 
 .scs-logo {
@@ -41,5 +49,11 @@
   .banner h1 {
     text-align: center;
     font-size: 3em;  /* scale down on small screens */
+  }
+
+  .banner h2 {
+    text-align: center;
+    font-size: 1.5em;  /* scale down on small screens */
+    color: var(--ucsd-citron);
   }
 }
