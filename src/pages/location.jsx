@@ -6,11 +6,14 @@ export default function Location() {
     <div className="location">
       <h1>Workshop Logistics</h1>
       <h2>Location</h2>
-      <p>The workshop will be hosted at the <b><i><a href="https://www.google.com/maps/place/San+Diego+Supercomputer+Center/@32.8843429,-117.2422346,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06c1fd84fe93:0x1eb27ea2a3de8388!8m2!3d32.8843429!4d-117.2396597!16zL20vMDM1ODB6?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">San Diego Supercomputer Center</a></i></b>, on the UC San Diego campus. The group sessions will be held in the <b>Auditorium</b>, with breakout sessions in nearby rooms.</p>
+      <p>The workshop will be hosted at the <b><i><a href="https://www.google.com/maps/place/San+Diego+Supercomputer+Center/@32.8843429,-117.2422346,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06c1fd84fe93:0x1eb27ea2a3de8388!8m2!3d32.8843429!4d-117.2396597!16zL20vMDM1ODB6?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><span style={{ color: 'var(--ucsd-magenta)' }}>San Diego Supercomputer Center</span></a></i></b>, on the UC San Diego campus. The group sessions will be held in the <b>Auditorium</b>, with breakout sessions in nearby rooms.</p>
       <p><b><i>When you arrive, please check in at the registration desk in the auditorium.</i></b></p>
       <p>UC San Diego is located north of downtown La Jolla. There is an MTS trolley stop on campus, which offers a convenient way to get to/from other areas of the city. There is also a central bus transportation hub on campus offering service for many bus lines throughout the region.</p>
       <h2>Lodging/Hotels</h2>
-      <p>For everyone who registered for the workshop-provided accommodation, it will be booked for you and you will receive details via email.
+      <p>If you registered for the workshop-provided accommodation, you will have a room booked for you at the <a href="https://www.marriott.com/en-us/hotels/sanjs-sheraton-la-jolla-hotel/overview/" target="_blank" rel="noopener noreferrer"><b><span style={{ color: 'var(--ucsd-magenta)' }}>Sheraton La Jolla Hotel</span></b></a>; you will receive reservation details via email.
+      </p>
+      <p>
+        This hotel is approximately a 10 minute drive, 25-30 minute bus ride, or 40-45 minute walk from the San Diego Supercomputer Center. It is also right next to <a href="https://www.google.ca/maps/place/The+Shops+at+La+Jolla+Village/@32.8686692,-117.2344358,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06cd8501b043:0x8d88c1eb95c4c325!8m2!3d32.8686692!4d-117.2318609!16s%2Fg%2F11g6ym6h6j?entry=ttu&g_ep=EgoyMDI2MDMwMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">The Shops at La Jolla Village</a>, which has many food options.
       </p>
       <h2>Travel</h2>
       <h3>Travel to San Diego</h3>
@@ -31,7 +34,7 @@ export default function Location() {
       <p>Parking on campus is available in various parking structures and surface lots, but a parking pass must be purchased. Details can be found on the <a href="https://transportation.ucsd.edu/visit/parking.html#la-jolla-academic-campus" target="_blank" rel="noopener noreferrer">UCSD parking website</a>.</p>
       <h3>Getting Around in San Diego</h3>
       <p>Public transportation in San Diego is provided by <a href="https://www.sdmts.com/" target="_blank" rel="noopener noreferrer">SDMTS</a>. UCSD is a short ride from La Jolla, and about 25-30 minutes from downtown San Diego. The La Jolla beach and surrounding areas are easily accessible by walking.</p>
-      <h2>Food</h2>
+      <h2>Food on Campus</h2>
       <p>There will be coffee/tea and snacks provided throughout the workshop.</p>
       <p>Meals are not provided for this workshop, however there are many restaurants on campus (see this map). There is no official workshop dinner, but participants are encouraged to join informal dinners throughout the week.</p>
                   <div className="iframe-wrapper" aria-hidden={false}>
