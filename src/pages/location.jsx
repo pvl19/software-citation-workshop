@@ -8,6 +8,15 @@ export default function Location() {
       <h2>Location</h2>
       <p>The workshop will be hosted at the <b><i><a href="https://www.google.com/maps/place/San+Diego+Supercomputer+Center/@32.8843429,-117.2422346,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06c1fd84fe93:0x1eb27ea2a3de8388!8m2!3d32.8843429!4d-117.2396597!16zL20vMDM1ODB6?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><span style={{ color: 'var(--ucsd-magenta)' }}>San Diego Supercomputer Center</span></a></i></b>, on the UC San Diego campus. The group sessions will be held in the <b>Auditorium</b>, with breakout sessions in nearby rooms.</p>
       <p><b><i>When you arrive, please check in at the registration desk in the auditorium.</i></b></p>
+      <div className="iframe-wrapper" aria-hidden={false}>
+          <iframe
+              src="https://map.concept3d.com/?id=1005#!bm/?ct/18312,63891,65653?m/237182?s/supercompu?mc/32.884153366485836,-117.24002800000989?z/17.534217573436863?lvl/0"
+              title="University of California San Diego - San Diego Supercomputer Center"
+              loading="lazy"
+              allow="geolocation; gyroscope; accelerometer"
+              referrerPolicy="no-referrer-when-downgrade"
+          />
+      </div>
       <p>UC San Diego is located north of downtown La Jolla. There is an MTS trolley stop on campus, which offers a convenient way to get to/from other areas of the city. There is also a central bus transportation hub on campus offering service for many bus lines throughout the region.</p>
       <h2>Lodging/Hotels</h2>
       <p>If you registered for the workshop-provided accommodation, you will have a room booked for you at the <a href="https://www.marriott.com/en-us/hotels/lajca-residence-inn-san-diego-la-jolla/overview/" target="_blank" rel="noopener noreferrer"><b><span style={{ color: 'var(--ucsd-magenta)' }}>Residence Inn by Marriott</span></b></a> hotel in La Jolla, just South of campus. <b>Breakfast is included with your hotel reservation!</b> You will also receive further reservation details via email.
