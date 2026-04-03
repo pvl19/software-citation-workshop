@@ -11,6 +11,11 @@ export default function Schedule() {
         <br></br>
         The first day will consist of flash talks by all attendees, which is designed to highlight participants' unique backgrounds and perspectives, and promote awareness of important tools and issues in the software citation community. After the first day, most of the workshop will consist of discussions in small groups. The format will be similar to what is often called an <i>"unconference"</i> approach, where active discussions are prioritized.
       </p>
+      <h3>Monday Evening at the Beach</h3>
+      <p>
+        After the workshop on Monday, we will be heading to the beach at <b><a href="https://maps.app.goo.gl/aScLKGx2mPLnLYA18" target="_blank" rel="noopener noreferrer"><span style={{ color: 'var(--ucsd-magenta)' }}>La Jolla Shores</span></a></b> for an informal social event! It is an enjoyable ~1 hour walk from the workshop for those who wish to do so, but there is also a bus that goes there from campus. We will also plan to get dinner as a group close to the beach.
+      </p>
+      <h2>Block Schedule</h2>
       <p>
         <b><i><span style={{color: 'red'}}>See detailed <a href="/resources/flash-talk-schedule.pdf" target="_blank" rel="noopener noreferrer">flash talk schedule</a>.</span></i></b>
       </p>

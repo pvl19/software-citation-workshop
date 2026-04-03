@@ -3,6 +3,7 @@ import Banner from './components/banner'
 import Overview from './pages/overview'
 import Schedule from './pages/schedule'
 import Location from './pages/location'
+import Meals from './pages/meals'
 import Registration from './pages/registration'
 import OrganizingCommittees from './pages/ocs'
 import './App.css'
@@ -36,6 +37,14 @@ export default function App() {
               </li>
               <li>
                 <button
+                  className={tab === 'Meals' ? 'active' : ''}
+                  onClick={() => setTab('Meals')}
+                >
+                  Meals
+                </button>
+              </li>
+              <li>
+                <button
                   className={tab === 'Logistics' ? 'active' : ''}
                   onClick={() => setTab('Logistics')}
                 >
@@ -65,6 +74,11 @@ export default function App() {
             {tab === 'Schedule' && (
               <Schedule>
               </Schedule>
+            )}
+
+            {tab === 'Meals' && (
+              <Meals>
+              </Meals>
             )}
 
             {tab === 'Logistics' && (

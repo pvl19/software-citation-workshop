@@ -43,18 +43,6 @@ export default function Location() {
       <p>Parking on campus is available in various parking structures and surface lots, but a parking pass must be purchased. Details can be found on the <a href="https://transportation.ucsd.edu/visit/parking.html#la-jolla-academic-campus" target="_blank" rel="noopener noreferrer">UCSD parking website</a>.</p>
       <h3>Getting Around in San Diego</h3>
       <p>Public transportation in San Diego is provided by <a href="https://www.sdmts.com/" target="_blank" rel="noopener noreferrer">SDMTS</a>. UCSD is a short ride from La Jolla, and about 25-30 minutes from downtown San Diego. The La Jolla beach and surrounding areas are easily accessible by walking.</p>
-      <h2>Food on Campus</h2>
-      <p>There will be coffee/tea and snacks provided throughout the workshop.</p>
-      <p>Meals are not provided for this workshop, however there are many restaurants on campus (see this map). There is no official workshop dinner, but participants are encouraged to join informal dinners throughout the week.</p>
-                  <div className="iframe-wrapper" aria-hidden={false}>
-                <iframe
-                    src="https://map.concept3d.com/?id=1005#!ce/17970?ct/17970,18012,18014?s/?sbc/?mc/32.88055863066228,-117.23666770759394?z/16.076776050389412?lvl/0"
-                    title="University of California San Diego - Restaurants and Cafes"
-                    loading="lazy"
-                    allow="geolocation; gyroscope; accelerometer"
-                    referrerPolicy="no-referrer-when-downgrade"
-                />
-            </div>
     </div>
   )
 }
