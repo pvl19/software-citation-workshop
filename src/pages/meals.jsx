@@ -6,6 +6,7 @@ export default function Meals() {
     <div className="meals">
       <h1>Meals</h1>
       <p>There will be coffee/tea and snacks provided throughout the workshop. Meals are not provided for this workshop, however there are many restaurants on campus for lunch, and we will plan to gather for informal dinners together throughout the week.</p>
+      <p>We also encourage everyone to bring a reusable bottle, as there is a water fountain available at the workshop.</p>
       <h2>Dinners</h2>
       <p>
         <b>Monday:</b> We will be having an informal dinner at La Jolla Shores after the beach excursion on Monday evening.<br></br>
